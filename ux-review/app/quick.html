@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <link rel="icon" href="data:,">
-  <title>Tridoku · Quick Solve</title>  <script type="module" crossorigin src="../assets/quick-fwrM6Dtj.js"></script>
-  <link rel="modulepreload" crossorigin href="../assets/daily-view-BYXBPfI3.js">
-  <link rel="modulepreload" crossorigin href="../assets/read-track-save-CrunmQQu.js">
-  <link rel="modulepreload" crossorigin href="../assets/track-bridge-CjQWE-Xq.js">
+  <title>Tridoku · Quick Solve</title>  <script type="module" crossorigin src="../assets/quick-6pAG3GML.js"></script>
+  <link rel="modulepreload" crossorigin href="../assets/daily-view-DpG6YlZg.js">
+  <link rel="modulepreload" crossorigin href="../assets/read-track-save-BCpi5IIF.js">
+  <link rel="modulepreload" crossorigin href="../assets/track-bridge-2yiWeCSm.js">
   <link rel="stylesheet" crossorigin href="../assets/track-bridge--drVcYte.css">
-  <link rel="stylesheet" crossorigin href="../assets/quick-CYc6ycIi.css">
+  <link rel="stylesheet" crossorigin href="../assets/quick-BoWHCIqa.css">
 </head>
 <body>
   <a class="skip" id="skip-targets" href="#target-a" hidden>Skip to target choices</a>
@@ -23,11 +23,11 @@
     </header>
 
     <section id="save-panel" class="save-panel" aria-label="Quick save status"><div><p class="eyebrow" id="save-scope">Quick local save</p><strong id="save-status">Opening Quick save…</strong><p id="save-message"></p><p id="save-advice" hidden>Your latest progress is not saved yet. Keep this tab open while you review or retry.</p></div><div class="save-actions"><button id="save-stop" hidden>Request stop of pending save</button><button id="save-retry" hidden>Retry saving</button><button id="save-reconnect" hidden>Reopen connection</button></div><p id="save-feedback" class="sr-only" role="status" aria-live="polite"></p></section>
-    <section id="recovery-panel" class="recovery-panel" aria-labelledby="recovery-heading" hidden><h2 id="recovery-heading">Review Quick save</h2><p>Choose a version to preview. Originals are preserved together with your choice in one transaction; Classic is unaffected.</p><div id="recovery-choices"></div><p id="recovery-preview" role="status"></p><button id="recovery-use" disabled>Preserve originals and use this version</button></section>
+    <section id="recovery-panel" class="recovery-panel" aria-labelledby="recovery-heading" hidden><h2 id="recovery-heading">Review Quick save</h2><p>Choose a version to preview. Your original saves will be kept, and your Classic game will stay unchanged.</p><div id="recovery-choices"></div><p id="recovery-preview" role="status"></p><button id="recovery-use" disabled>Preserve originals and use this version</button></section>
     <section class="review-grid" id="game-surface" aria-label="Quick challenge" hidden>
       <section class="board-panel" aria-labelledby="context-heading">
         <div class="panel-heading"><div><p class="eyebrow">YOUR PUZZLE</p><h2 id="context-heading">Find A and B</h2></div><button id="zoom" aria-pressed="false">Enlarge board</button></div>
-        <p class="secondary">Use the clues to find the two marked cells.</p>
+        <p class="secondary">Use the clues to find the two marked cells. <button type="button" id="quick-rules-jump" class="quick-rules-jump">How to play</button></p>
         <div class="target-controls" role="group" aria-label="Editable targets"><button id="target-a" data-target="0" aria-pressed="false">A · Top tip</button><button id="target-b" data-target="67" aria-pressed="false">B · Bottom left</button></div>
         <p id="board-conflict" class="board-conflict" aria-hidden="true" hidden>This number conflicts with another number. You can change it.</p>
         <div id="board-rest" class="board-rest" hidden>Challenge paused. Your in-tab progress is retained.</div>
@@ -57,7 +57,7 @@
     </section>
     <section class="board-help" aria-label="Puzzle help">
         <details><summary>How to read the board</summary><p>Choose A or B above the puzzle. A solid outline marks its region. Some hints add dashed outlines; the final explanation circles clues. Enlarge the board or use the text list for a closer look.</p></details>
-        <details><summary>The four rules</summary><ol><li>Each bold nine-cell region contains digits 1–9 exactly once.</li><li>Each outer side has no repeated digit.</li><li>Each of the three nine-cell legs of the shaded inner triangle contains digits 1–9 exactly once.</li><li>Identical digits cannot touch at an edge or corner.</li></ol><p>Rows are location labels, not extra rule groups.</p></details>
+        <details><summary>The four rules</summary><div id="quick-rules-guide"><p>Each large triangle, each outer side, and each leg of the inner triangle contains 1–9 once. Matching numbers cannot touch at an edge or corner.</p></div></details>
         <details id="cell-details"><summary>Read all 81 cells as text</summary><div class="table-scroll" tabindex="0" aria-label="Current board cell list"><table><thead><tr><th>Location</th><th>Content</th><th>Region</th></tr></thead><tbody id="cell-list"></tbody></table></div></details>
     </section>
     <footer><div id="appearance-controls"></div><details><summary>About this puzzle</summary><p>Beta puzzles and hints may change. Your progress stays in this browser. The filled count shows entries, not whether they are correct.</p><details><summary>Puzzle details</summary><p id="challenge-provenance"></p></details></details></footer>

@@ -1,63 +1,63 @@
 {
   "schema": 1,
   "kind": "tridoku-local-beta-bundle",
-  "bundleId": "17677fb912a216126482b27550c8f11de3154c6711cd7b76218ad8de66ffbfd3",
+  "bundleId": "e6f0cb2ad1ca35a65784469b0924d7a4e5e96730444bdade380f57e23182342e",
   "entry": "app/index.html",
   "files": [
     {
       "path": "app/classic.html",
       "bytes": 897,
-      "sha256": "92d3f6ad7fb72b97fe1b5a781fb85236a66dbaf2ba924dd5e9b31d7366432e1d"
+      "sha256": "248f3c896c318edeee66d0473f25872eb4e04c41c6ef485a56aa6a0d24a5d4fb"
     },
     {
       "path": "app/index.html",
-      "bytes": 8388,
-      "sha256": "09a54f6e396cac17b2872621a26000d5a8412cfd11aec063c64bc47c440bd603"
+      "bytes": 8247,
+      "sha256": "23d4e2f844b2a699bd7cbd305cb6bad445bfff94f8e884f563448b0bd37ca126"
     },
     {
       "path": "app/quick.html",
-      "bytes": 8749,
-      "sha256": "d628b88e6beef84631782d445b0f3d7dcc802b3172771279a0fbe5bec0f61f39"
+      "bytes": 8661,
+      "sha256": "f45dd620c6dc2d3c23b4568058c2683d414a64386988e1f4db35a505fa60d8ab"
     },
     {
-      "path": "assets/classic-CqnWJL2Q.css",
-      "bytes": 15734,
-      "sha256": "f7747b12dc5decb6b9326c79350e7e56d1d648ab7c11e21b48afedae24e8f294"
+      "path": "assets/classic--24erx36.js",
+      "bytes": 65156,
+      "sha256": "52052ce66ddba6fc21e276a35b0ce4a611107af75218ed5842e84bd363a1adcd"
     },
     {
-      "path": "assets/classic-DnsblOT5.js",
-      "bytes": 65453,
-      "sha256": "94774705f5e21034a376231452d280f714aad551693ffd93924399256e2fc4b1"
+      "path": "assets/classic-OObDiw3c.css",
+      "bytes": 19158,
+      "sha256": "941af0753c8cfd0384b8a726caaa42269dd141158601123246a5029db2726579"
     },
     {
-      "path": "assets/daily-view-BYXBPfI3.js",
-      "bytes": 510959,
-      "sha256": "1422056f06f1f9866476e7818217641c55de52230623a402536ca34d8828af19"
+      "path": "assets/daily-view-DpG6YlZg.js",
+      "bytes": 524586,
+      "sha256": "d9935bb3251b100c959765068457bcbaac972ff5d64a3b0b72263ed7ee60c9b2"
     },
     {
-      "path": "assets/home-B-nkxSTa.css",
-      "bytes": 21687,
-      "sha256": "d8d2c6eec03068223a1347d0a107c9f2475cc67572fe1fab0ce1c7dcb2865aac"
+      "path": "assets/home-C4K9jjRC.css",
+      "bytes": 26197,
+      "sha256": "56ffb09678c0d487d20546e71a581f972b075b6c98dbb7cf8364a230e997149f"
     },
     {
-      "path": "assets/home-DOzHeVac.js",
-      "bytes": 29234,
-      "sha256": "d53cafb47dfad73a3a321bcb4819e7ed828dae97f01ea3871cf225045e7e0768"
+      "path": "assets/home-CqCDrlrk.js",
+      "bytes": 29785,
+      "sha256": "efda1a2bfd348a2bfefe9ff4803a85ea083186364abdbf246f58bd6f06d8417a"
     },
     {
-      "path": "assets/quick-CYc6ycIi.css",
-      "bytes": 17286,
-      "sha256": "b4c067e76a6d42d888b545700a8464cb3fb5e2be8e8379dfa9811732cf5f7f2d"
+      "path": "assets/quick-6pAG3GML.js",
+      "bytes": 41719,
+      "sha256": "5e40877b1f78ded05b1ba13966d922c9e686a2412a109e04f422f6aa96947063"
     },
     {
-      "path": "assets/quick-fwrM6Dtj.js",
-      "bytes": 41516,
-      "sha256": "440880b669f3708a0b18fff731f5f6cabaf0e0ab041c2b81d59ebf6b1c1719b4"
+      "path": "assets/quick-BoWHCIqa.css",
+      "bytes": 20783,
+      "sha256": "f09c0d75030939fd5a5c45a90490068d6842d9ff7286f1771eb5679208f1b059"
     },
     {
-      "path": "assets/read-track-save-CrunmQQu.js",
-      "bytes": 5999,
-      "sha256": "0b091a093e7a190afbdc85dc8da36753cf08a2d99cf5436105c8d8ae6dc08c6b"
+      "path": "assets/read-track-save-BCpi5IIF.js",
+      "bytes": 6241,
+      "sha256": "132b87c03d4afe20e9de05ddc94d31570901fc9ad4055ba3e73e81913f7db20e"
     },
     {
       "path": "assets/track-bridge--drVcYte.css",
@@ -65,14 +65,14 @@
       "sha256": "2ee2442852eae25f19e59560ef13605661d0a3c0f691f3af3f35260a4e84728e"
     },
     {
-      "path": "assets/track-bridge-CjQWE-Xq.js",
-      "bytes": 11695,
-      "sha256": "29bdf3f9e1a118651dedd8b53247b6410330e9a7906c280dc39846b700fd80e6"
+      "path": "assets/track-bridge-2yiWeCSm.js",
+      "bytes": 11817,
+      "sha256": "b79591a37a50b262af79273a50ef35fdc90221d236d6ddf4bc8393da8a6d4c26"
     },
     {
       "path": "build-audit.json",
-      "bytes": 5236,
-      "sha256": "ec567f881ab7ef81030068fc0f6dd79862b4089b6f05956d7984e058c6026bef"
+      "bytes": 5445,
+      "sha256": "ab6b0b5208ffc9f086fd126aea8f424b7b4a6e2c85d8323f615d908982b9b4b1"
     }
   ]
 }
