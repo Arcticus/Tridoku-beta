@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "kind": "tridoku-local-beta-bundle",
+  "bundleId": "17677fb912a216126482b27550c8f11de3154c6711cd7b76218ad8de66ffbfd3",
+  "entry": "app/index.html",
+  "files": [
+    {
+      "path": "app/classic.html",
+      "bytes": 897,
+      "sha256": "92d3f6ad7fb72b97fe1b5a781fb85236a66dbaf2ba924dd5e9b31d7366432e1d"
+    },
+    {
+      "path": "app/index.html",
+      "bytes": 8388,
+      "sha256": "09a54f6e396cac17b2872621a26000d5a8412cfd11aec063c64bc47c440bd603"
+    },
+    {
+      "path": "app/quick.html",
+      "bytes": 8749,
+      "sha256": "d628b88e6beef84631782d445b0f3d7dcc802b3172771279a0fbe5bec0f61f39"
+    },
+    {
+      "path": "assets/classic-CqnWJL2Q.css",
+      "bytes": 15734,
+      "sha256": "f7747b12dc5decb6b9326c79350e7e56d1d648ab7c11e21b48afedae24e8f294"
+    },
+    {
+      "path": "assets/classic-DnsblOT5.js",
+      "bytes": 65453,
+      "sha256": "94774705f5e21034a376231452d280f714aad551693ffd93924399256e2fc4b1"
+    },
+    {
+      "path": "assets/daily-view-BYXBPfI3.js",
+      "bytes": 510959,
+      "sha256": "1422056f06f1f9866476e7818217641c55de52230623a402536ca34d8828af19"
+    },
+    {
+      "path": "assets/home-B-nkxSTa.css",
+      "bytes": 21687,
+      "sha256": "d8d2c6eec03068223a1347d0a107c9f2475cc67572fe1fab0ce1c7dcb2865aac"
+    },
+    {
+      "path": "assets/home-DOzHeVac.js",
+      "bytes": 29234,
+      "sha256": "d53cafb47dfad73a3a321bcb4819e7ed828dae97f01ea3871cf225045e7e0768"
+    },
+    {
+      "path": "assets/quick-CYc6ycIi.css",
+      "bytes": 17286,
+      "sha256": "b4c067e76a6d42d888b545700a8464cb3fb5e2be8e8379dfa9811732cf5f7f2d"
+    },
+    {
+      "path": "assets/quick-fwrM6Dtj.js",
+      "bytes": 41516,
+      "sha256": "440880b669f3708a0b18fff731f5f6cabaf0e0ab041c2b81d59ebf6b1c1719b4"
+    },
+    {
+      "path": "assets/read-track-save-CrunmQQu.js",
+      "bytes": 5999,
+      "sha256": "0b091a093e7a190afbdc85dc8da36753cf08a2d99cf5436105c8d8ae6dc08c6b"
+    },
+    {
+      "path": "assets/track-bridge--drVcYte.css",
+      "bytes": 3685,
+      "sha256": "2ee2442852eae25f19e59560ef13605661d0a3c0f691f3af3f35260a4e84728e"
+    },
+    {
+      "path": "assets/track-bridge-CjQWE-Xq.js",
+      "bytes": 11695,
+      "sha256": "29bdf3f9e1a118651dedd8b53247b6410330e9a7906c280dc39846b700fd80e6"
+    },
+    {
+      "path": "build-audit.json",
+      "bytes": 5236,
+      "sha256": "ec567f881ab7ef81030068fc0f6dd79862b4089b6f05956d7984e058c6026bef"
+    }
+  ]
+}
