@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "kind": "tridoku-local-beta-bundle",
+  "bundleId": "94ddaa107b343c1dcd311573d38fc5dc4ec12896d8b17f9ee44b0d8b4839921a",
+  "entry": "app/index.html",
+  "files": [
+    {
+      "path": "app/classic.html",
+      "bytes": 897,
+      "sha256": "0f2b9156a7a63506b98421afedf98a9f74eb60073c4c6c9e07ad0b62ed8209d4"
+    },
+    {
+      "path": "app/index.html",
+      "bytes": 6817,
+      "sha256": "d3ec4ffa1db13f4928441630f13476d53bab355986f8ac86fb8776f69b0011a2"
+    },
+    {
+      "path": "app/quick.html",
+      "bytes": 8326,
+      "sha256": "654a9b955b0a3ee75bffc3568e6f295e60eee3122e970012c662a68f110fd047"
+    },
+    {
+      "path": "assets/appearance-BC_b9vL8.js",
+      "bytes": 5024,
+      "sha256": "e2b8a4b003c1c4c41337b41e31493b39661db0181ca39c9c3ca65660655d4dbe"
+    },
+    {
+      "path": "assets/classic-Cnw-SrBp.js",
+      "bytes": 66676,
+      "sha256": "9e87ab94f18fa94e1947f671d0c63467eb89b52d3d6b90604deaa7ed02bc0110"
+    },
+    {
+      "path": "assets/classic-DflAiAUZ.css",
+      "bytes": 15218,
+      "sha256": "abd3bb5a83270d11ff49bfe23bd115607fc2b5ef9b36980243b1adc2f56dd604"
+    },
+    {
+      "path": "assets/daily-view-kxVHdqvg.js",
+      "bytes": 505989,
+      "sha256": "71ca250cf89e0d44639aa26ba308adf6846ee58756b3c1ed3b2d594b3af1a30c"
+    },
+    {
+      "path": "assets/home-DJFTa4DQ.js",
+      "bytes": 27263,
+      "sha256": "c25d3cd4a11f44fe357938e23401b79a9d83677e88ed73e8c5989b3af057098d"
+    },
+    {
+      "path": "assets/home-DMVvegBP.css",
+      "bytes": 11582,
+      "sha256": "e903e2ab6444891e7cd4d97a3994505abf0ef56fbbefb75c43a05bd4527e400d"
+    },
+    {
+      "path": "assets/quick-09pZYBIk.js",
+      "bytes": 37780,
+      "sha256": "c1517578bcaff538dfa91df528f8fcc87dbf12859c43962d8b9c970148421f6d"
+    },
+    {
+      "path": "assets/quick-bbQgmakV.css",
+      "bytes": 13586,
+      "sha256": "757d632317688733bd7a1a05144977554917e2e859031bd36656b500271621c6"
+    },
+    {
+      "path": "assets/track-bridge-Bc6O37bO.js",
+      "bytes": 10144,
+      "sha256": "f67ece334a0cf1f035c04ecb230007fe17dd65f57cd5c33c08843748c6e3ec34"
+    },
+    {
+      "path": "assets/track-bridge-D7D21VXF.css",
+      "bytes": 3196,
+      "sha256": "993e76b2e02e2d2eb518a2c6e5b290baef446078b67fbc5b4538d6f2e13b7bd3"
+    },
+    {
+      "path": "build-audit.json",
+      "bytes": 5135,
+      "sha256": "0c1dce90ae1d9af573c4dcbeecb1cd54364289c39c4bcc52401771a4f32531a1"
+    }
+  ]
+}

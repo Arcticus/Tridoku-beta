@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:,">
+  <title>Tridoku · Quick Solve local saves</title>  <script type="module" crossorigin src="../assets/quick-09pZYBIk.js"></script>
+  <link rel="modulepreload" crossorigin href="../assets/daily-view-kxVHdqvg.js">
+  <link rel="modulepreload" crossorigin href="../assets/appearance-BC_b9vL8.js">
+  <link rel="modulepreload" crossorigin href="../assets/track-bridge-Bc6O37bO.js">
+  <link rel="stylesheet" crossorigin href="../assets/track-bridge-D7D21VXF.css">
+  <link rel="stylesheet" crossorigin href="../assets/quick-bbQgmakV.css">
+</head>
+<body>
+  <a class="skip" href="#quick-controls">Skip to Quick controls</a>
+  <main>
+    <header class="quick-header">
+      <div class="brand-row"><strong class="eyebrow">TRIDOKU</strong><nav aria-label="Play track"><a href="#quick-controls" aria-current="page">Quick Solve</a><a href="./index.html#classic" target="_blank" rel="noopener">Classic <span class="secondary">↗</span></a></nav></div>
+      <h1>Two places. Two deductions.</h1>
+      <p class="intro">Find the numbers for A and B. Every other empty cell is context; you don’t need to finish the whole board.</p>
+      <p class="notice"><strong>Preview build.</strong> Quick saves separately from Classic in this browser. Check the save status before closing. Puzzles and hints may change.</p>
+      <div id="appearance-controls"></div>
+    </header>
+
+    <section id="save-panel" class="save-panel" aria-label="Quick save status"><div><p class="eyebrow" id="save-scope">Quick local save</p><strong id="save-status">Opening Quick save…</strong><p id="save-message"></p></div><div class="save-actions"><button id="save-stop" hidden>Request stop of pending save</button><button id="save-retry" hidden>Retry saving</button><button id="save-reconnect" hidden>Reopen connection</button></div><p id="save-feedback" class="sr-only" role="status" aria-live="polite"></p></section>
+    <section id="recovery-panel" class="recovery-panel" aria-labelledby="recovery-heading" hidden><h2 id="recovery-heading">Review Quick save</h2><p>Choose a version to preview. Originals are preserved together with your choice in one transaction; Classic is unaffected.</p><div id="recovery-choices"></div><p id="recovery-preview" role="status"></p><button id="recovery-use" disabled>Preserve originals and use this version</button></section>
+    <section class="review-grid" id="game-surface" aria-label="Quick challenge" hidden>
+      <section class="board-panel" aria-labelledby="context-heading">
+        <div class="panel-heading"><div><p class="eyebrow">ALL THE CLUES</p><h2 id="context-heading">Whole-board context</h2></div><button id="zoom" aria-pressed="false">Enlarge board</button></div>
+        <p class="secondary">30 original givens · two editable targets</p>
+        <div id="board-rest" class="board-rest" hidden>Challenge paused. Your in-tab progress is retained.</div>
+        <div id="board-viewport" class="board-viewport" tabindex="0" role="region" aria-label="Read-only board viewport"><div id="board"></div></div>
+        <p class="secondary">Choose A or B using the target buttons. A solid outline marks the selected region; after some hints, dashed outlines mark an outer side or inner leg. Circled clues appear with the final answer and explanation. Enlarge or use the text list for closer inspection.</p>
+        <details><summary>The four canonical rules</summary><ol><li>Each bold nine-cell region contains digits 1–9 exactly once.</li><li>Each outer side has no repeated digit.</li><li>Each of the three nine-cell legs of the shaded inner triangle contains digits 1–9 exactly once.</li><li>Identical digits cannot touch at an edge or corner.</li></ol><p>Rows are location labels, not extra rule groups.</p></details>
+        <details id="cell-details"><summary>Read all 81 cells as text</summary><div class="table-scroll" tabindex="0" aria-label="Current board cell list"><table><thead><tr><th>Location</th><th>Content</th><th>Region</th></tr></thead><tbody id="cell-list"></tbody></table></div></details>
+      </section>
+
+      <section class="hint-panel" id="quick-controls" tabindex="-1" aria-label="Quick Solve controls">
+        <div class="progress-row"><h2 id="progress">0 / 2 targets entered</h2><span class="prototype-tag">LOCAL SAVE</span></div>
+        <div id="editor">
+          <p class="secondary">Select a target, then enter a number or pencil mark.</p>
+          <div class="target-controls" role="group" aria-label="Editable targets"><button id="target-a" data-target="0" aria-pressed="false">A · Top tip</button><button id="target-b" data-target="67" aria-pressed="false">B · Bottom left</button></div>
+          <div class="selection"><h3 id="selection-title">Choose A or B</h3><p id="selection-content" class="secondary">Only these two cells accept entries.</p></div>
+          <div class="mode-controls" role="group" aria-label="Entry mode"><button id="mode-numbers" data-mode="numbers" aria-pressed="true">Numbers</button><button id="mode-notes" data-mode="notes" aria-pressed="false">Pencil marks</button></div>
+          <div class="keypad" role="group" aria-label="Number entry"><button data-digit="1" disabled>1</button><button data-digit="2" disabled>2</button><button data-digit="3" disabled>3</button><button data-digit="4" disabled>4</button><button data-digit="5" disabled>5</button><button data-digit="6" disabled>6</button><button data-digit="7" disabled>7</button><button data-digit="8" disabled>8</button><button data-digit="9" disabled>9</button></div>
+          <div class="edit-actions"><button id="erase" disabled>Erase</button><button id="undo" disabled>Undo</button></div>
+          <p id="entry-help" class="secondary">Digits enter values. N switches mode. Delete erases; ⌘/Ctrl-Z undoes. Held keys are ignored.</p>
+          <div id="conflicts" class="conflict-message" hidden></div>
+          <p id="incomplete" class="incomplete" hidden>Both targets are entered, but the challenge is not complete. Revisit your deductions or use a free hint.</p>
+          <details id="hint-details" open><summary>Free hints</summary><p class="secondary">Hints explain these two deductions. The final step reveals the answer; using hints has no penalty.</p><div id="hints"></div><button id="hint" disabled>Choose a target for hints</button><p id="assistance" class="secondary">No hints used.</p></details>
+          <div class="session-actions"><button id="pause">Pause</button><button id="done">Done for now</button><button id="restart">Restart challenge</button></div>
+        </div>
+        <section id="state-panel" class="state-panel" aria-labelledby="state-heading" hidden><p id="state-eyebrow" class="eyebrow"></p><h2 id="state-heading" tabindex="-1"></h2><p id="state-description"></p><p id="result-assistance" class="secondary"></p><div class="session-actions"><button id="resume">Resume challenge</button><button id="result-done">Done for now</button><button id="replay">Replay challenge</button><button id="library-next" type="button" hidden>Next challenge</button></div></section>
+        <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+      </section>
+    </section>
+    <footer><p id="challenge-provenance"><strong>quick-3314-a</strong> · 0.1.0-candidate.1 · derived from Classic #3314</p><p>Preview build: no account, countdown or penalty. Active time may appear in local records. Saves stay in this browser. Targets entered counts filled cells, not correct deductions. </p></footer>
+  </main>
+  <dialog id="restart-dialog" aria-labelledby="restart-title"><h2 id="restart-title">Start this challenge again?</h2><p>This starts a new Quick attempt after preserving the current one. Its entries, notes, Undo and hint progress reset. Classic is unaffected.</p><p id="restart-save-message" role="status"></p><button id="restart-save-stop" hidden>Request stop of pending save</button><div class="session-actions"><button id="cancel-restart" autofocus>Keep this attempt</button><button id="confirm-restart">Start again</button></div></dialog>
+  <noscript>This prototype requires JavaScript. </noscript>
+</body>
+</html>
