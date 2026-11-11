@@ -38,6 +38,7 @@
     "app/daily-release-model.ts",
     "app/daily-result-view.ts",
     "app/daily-schedule.ts",
+    "app/daily-status-view.ts",
     "app/daily-summary.ts",
     "app/daily-view.ts",
     "app/index.html",
