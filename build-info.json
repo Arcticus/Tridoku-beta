@@ -1,78 +1,78 @@
 {
   "schema": 1,
   "kind": "tridoku-local-beta-bundle",
-  "bundleId": "94ddaa107b343c1dcd311573d38fc5dc4ec12896d8b17f9ee44b0d8b4839921a",
+  "bundleId": "3a9b90dc9469d0da12d1d5f0dbad03c5fcfafd476795a34b37eab568d6bef13c",
   "entry": "app/index.html",
   "files": [
     {
       "path": "app/classic.html",
-      "bytes": 897,
-      "sha256": "0f2b9156a7a63506b98421afedf98a9f74eb60073c4c6c9e07ad0b62ed8209d4"
+      "bytes": 1048,
+      "sha256": "5fb71a744bc7685cc2fce0a9f6d59aeacb92db9f05ff43e5b54323dff50bf215"
     },
     {
       "path": "app/index.html",
-      "bytes": 6817,
-      "sha256": "d3ec4ffa1db13f4928441630f13476d53bab355986f8ac86fb8776f69b0011a2"
+      "bytes": 9333,
+      "sha256": "8412e67cea5fe0c642184ad6136223e152f7de2e1d4b016d9886c2fa292a2448"
     },
     {
       "path": "app/quick.html",
-      "bytes": 8326,
-      "sha256": "654a9b955b0a3ee75bffc3568e6f295e60eee3122e970012c662a68f110fd047"
+      "bytes": 9187,
+      "sha256": "879ca0f3f25af0959765b0b776b90be04ac9e4581911cb316f35521812915540"
     },
     {
-      "path": "assets/appearance-BC_b9vL8.js",
-      "bytes": 5024,
-      "sha256": "e2b8a4b003c1c4c41337b41e31493b39661db0181ca39c9c3ca65660655d4dbe"
+      "path": "assets/classic-5CKH_Idx.js",
+      "bytes": 71279,
+      "sha256": "1745af0258a8c297eae88e982126d6877ee50c8399ee6579f4cf7d73d59a05b1"
     },
     {
-      "path": "assets/classic-Cnw-SrBp.js",
-      "bytes": 66676,
-      "sha256": "9e87ab94f18fa94e1947f671d0c63467eb89b52d3d6b90604deaa7ed02bc0110"
+      "path": "assets/classic-C7QwQBMF.css",
+      "bytes": 22140,
+      "sha256": "400b8ac20188695932077b9b2b3318e6bb74385a13b2c686245df1444bab4954"
     },
     {
-      "path": "assets/classic-DflAiAUZ.css",
-      "bytes": 15218,
-      "sha256": "abd3bb5a83270d11ff49bfe23bd115607fc2b5ef9b36980243b1adc2f56dd604"
+      "path": "assets/daily-view-D6iDdYrO.js",
+      "bytes": 526544,
+      "sha256": "5523823add4b93e3e58911b94d8551ec22c137f2f19a40be05259f1415dc410d"
     },
     {
-      "path": "assets/daily-view-kxVHdqvg.js",
-      "bytes": 505989,
-      "sha256": "71ca250cf89e0d44639aa26ba308adf6846ee58756b3c1ed3b2d594b3af1a30c"
+      "path": "assets/home-Cf01P3Jn.css",
+      "bytes": 29792,
+      "sha256": "edb78209d533b136a13e8ebad5d07e4d19d5b44c7e188480a37484a874bbd27a"
     },
     {
-      "path": "assets/home-DJFTa4DQ.js",
-      "bytes": 27263,
-      "sha256": "c25d3cd4a11f44fe357938e23401b79a9d83677e88ed73e8c5989b3af057098d"
+      "path": "assets/home-D2Ox6zgY.js",
+      "bytes": 33239,
+      "sha256": "215a7f636d3c6c093e3a1d3e7855b53ca631acc949ea77eadadad1f376c1d04a"
     },
     {
-      "path": "assets/home-DMVvegBP.css",
-      "bytes": 11582,
-      "sha256": "e903e2ab6444891e7cd4d97a3994505abf0ef56fbbefb75c43a05bd4527e400d"
+      "path": "assets/quick-CiFrG-gw.css",
+      "bytes": 22728,
+      "sha256": "eee0fb1133950e413a3bf84100e858d9ba9222e2619fa97acce6d0c0e226d3a6"
     },
     {
-      "path": "assets/quick-09pZYBIk.js",
-      "bytes": 37780,
-      "sha256": "c1517578bcaff538dfa91df528f8fcc87dbf12859c43962d8b9c970148421f6d"
+      "path": "assets/quick-DS883gmU.js",
+      "bytes": 44069,
+      "sha256": "e099101861a0a76dde6a4ed7b84f37808a92245ee05211306c267e9abb6134d8"
     },
     {
-      "path": "assets/quick-bbQgmakV.css",
-      "bytes": 13586,
-      "sha256": "757d632317688733bd7a1a05144977554917e2e859031bd36656b500271621c6"
+      "path": "assets/read-track-save-5oDWwaC5.js",
+      "bytes": 6308,
+      "sha256": "b8b83b6f733b1ee07892a76b525551cec5444d5f1f43c3777cff83bbe5bba198"
     },
     {
-      "path": "assets/track-bridge-Bc6O37bO.js",
-      "bytes": 10144,
-      "sha256": "f67ece334a0cf1f035c04ecb230007fe17dd65f57cd5c33c08843748c6e3ec34"
+      "path": "assets/track-bridge-BRCAp4Et.css",
+      "bytes": 4602,
+      "sha256": "9ba4152b8740b8590ef89bdb40b4193bb774a7c62526042ab4919771d6fc82ef"
     },
     {
-      "path": "assets/track-bridge-D7D21VXF.css",
-      "bytes": 3196,
-      "sha256": "993e76b2e02e2d2eb518a2c6e5b290baef446078b67fbc5b4538d6f2e13b7bd3"
+      "path": "assets/track-bridge-D36qPjlj.js",
+      "bytes": 11989,
+      "sha256": "1ec6e4a9467dcb5a9fce7b1aa7ab2c61336cccb61eb52563378496fa6619606b"
     },
     {
       "path": "build-audit.json",
-      "bytes": 5135,
-      "sha256": "0c1dce90ae1d9af573c4dcbeecb1cd54364289c39c4bcc52401771a4f32531a1"
+      "bytes": 5714,
+      "sha256": "8f11c2a5779262ad9684987229265edf9eceaf7958e58779d66b109185d4221f"
     }
   ]
 }
